@@ -1,0 +1,61 @@
+div{
+    width: 100px;
+    height: 100px;
+}
+.container{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+#box1{
+    background-color: green;
+    box-shadow: 1px 1px 10px 2px green;
+}
+#box2{
+    background-color: rebeccapurple;
+    box-shadow: 1px 1px 10px 2px rebeccapurple;
+}
+#box3{
+    background-color: gray;
+    box-shadow: 1px 1px 10px 2px gray;
+}
+button{
+    padding: 0.5rem 1rem;
+    border: none;
+    font-weight: bold;
+    box-shadow: 1px 1px 10px 2px gray;
+    margin: 2rem 1rem;
+    cursor: pointer;
+}
+button:hover{
+    transition: all 0.5s ease-out;
+    color: white;
+}
+#show:hover, .fade_remove:hover, .slideDown:hover{
+    background-color: green;
+    box-shadow: 1px 1px 10px 2px green;
+}
+#hide:hover, .slideUp:hover{
+    background-color: crimson;
+    box-shadow: 1px 1px 10px 2px crimson;
+}
+.toggle:hover{
+    background-color: tomato;
+    box-shadow: 1px 1px 10px 2px tomato;
+}
+.fade:hover{
+    background-color: gray; 
+    box-shadow: 1px 1px 10px 2px gray;
+}
+
+.slideText{
+    width: 100%;
+}
+.slideText h1{
+    color: hotpink;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
